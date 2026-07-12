@@ -1,7 +1,7 @@
 """CLI de header_leak."""
 from __future__ import annotations
 import sys
-from header_leak.core import main as _core_main
+from leakheaders.core import main as _core_main
 
 def main(argv=None):
     return _core_main(argv if argv is not None else sys.argv[1:])

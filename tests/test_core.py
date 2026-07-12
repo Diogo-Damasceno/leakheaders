@@ -1,4 +1,4 @@
-from header_leak import core
+from leakheaders import core
 
 def test_scan_match():
     pat, label = core.PATTERNS[0]

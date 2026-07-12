@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "header-leak"
+name = "leakheaders"
 version = "0.1.0"
 description = "Ferramenta de seguranca (portfolio). Uso educacional/autorizado."
 readme = "README.md"
@@ -12,7 +12,7 @@ license = { text = "MIT" }
 dependencies = []
 
 [project.scripts]
-header-leak = "header_leak.cli:main"
+header-leak = "leakheaders.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
